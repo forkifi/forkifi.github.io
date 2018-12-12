@@ -321,12 +321,18 @@ body {
   .likes {
     transform: scale(.65);
     position: fixed !important;
-    left: 78%;
-    top: 3px;
+    left: 82%;
+    top: 10px;
     z-index: 998; }
     .likes__field {
-      height: 75px !important;
+      position: relative;
+      height: 60px !important;
+      width: 70px;
+      padding: 0;
     }
+    .likes__field svg { 
+      position: absolute;
+      right: 20px;}
 }
 @media (max-width: 322px) {
   .search { width: 50%; }
