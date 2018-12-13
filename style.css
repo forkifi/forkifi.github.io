@@ -316,11 +316,11 @@ body {
       margin-right: -13px; }
     .search:focus-within {
       width: 90%;
-      left: 3.5%;
+      left: 3%;
       z-index: 999; }
       .search:focus-within .btn { 
         position: relative;
-        right: -3.5%;
+        right: -4%;
       }
   .likes {
     transform: scale(.65);
