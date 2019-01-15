@@ -304,13 +304,13 @@ body {
   .header__logo {
     transform: scale(.7);
     position: fixed;
-    left: -20px;
+    left: -30px;
   }
   .search {
     transform: scale(.65);
     position: fixed;
     width: 250px;
-    left: 21%;
+    left: 18%;
     padding-left: 1.5rem; }
     .search__field {
       font-size: 16px;
